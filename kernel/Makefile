@@ -20,7 +20,7 @@ SRC = $(call rwildcard,$(SRCDIR),*.c)
 OBJS = $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SRC))
 DIRS = $(wildcard $(SRCDIR)/*)
 
-kernel: $(OBJS)
+kernel: $(OBJS) link
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.c 
 	@ echo !==== COMPILING $^

@@ -1,7 +1,7 @@
-OUTPUT_FORMAT(elf64-x86_64)
+OUTPUT_FORMAT(elf64-x86-64)
 ENTRY(_start)
 
-SECTION
+SECTIONS
 {
     .text : ALIGN(0x1000)
     {
