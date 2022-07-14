@@ -1,6 +1,6 @@
 # Optimization Targets For Maximum Preformance 
 
-✔️ 
+<!--✔️-->
 TASK | COMPLETION (✔️/❌) | FOR
 :------ | :------- | :-------
 **Automatic Update Grahpic Card Drivers** | ❌ | Gaming
