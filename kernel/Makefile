@@ -3,7 +3,7 @@ OSNAME = CustomOS
 
 GNUEFI = ../gnu-efi
 OVMFDIR = ../OVMFbin
-LDS = 
+LDS = kernel.ld
 CC = x86_64-w64-mingw32-gcc
 LD = ld
 CFLAGS = -ffreestanding -fshort-wchar
