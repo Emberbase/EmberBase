@@ -5,7 +5,7 @@ GNUEFI = ../gnu-efi
 OVMFDIR = ../OVMFbin
 LDS = 
 CC = x86_64-w64-mingw32-gcc
-
+LD = ld
 CFLAGS = -ffreestanding -fshort-wchar
 LDFLAGS = -T $(LDS) -shared -Bsymbolic -nostdlib
 
@@ -19,6 +19,17 @@ rwildcard=$(foreach d,$(wildcard $(1:=/*)),$(call rwildcard,$d,$2) $(filter $(su
 SRC = $(call rwildcard,$(SRCDIR),*.c)          
 OBJS = $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SRC))
 DIRS = $(wildcard $(SRCDIR)/*)
+
+kernel: $(OBJS)
+
+$(OBJDIR)/%.o: $(SRCDIR)/%.c 
+	@ echo !==== COMPILING $^
+	@ mkdir -p $(@D)
+	$(CC) $(CFLAGS) -c $^ -o $@
+
+link:
+		@ echo !==== LINKING $^
+		$(LD) $(LDFLAGS) -o $(BUILDDIR)/kernel.elf $(OBJS)
 
 setup:
 	@mkdir $(BUILDDIR)
