@@ -18,9 +18,6 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project"> ➤ About The Project</a></li>
-    <li><a href="#overview"> ➤ Overview</a></li>
-    <li><a href="#getting-started"> ➤ Getting Started</a></li>
-    <li><a href="#references"> ➤ References</a></li>
     <li><a href="#credits"> ➤ Credits</a></li>
   </ol>
 </details>
@@ -32,4 +29,21 @@
 
 <p align="justify"> 
   EmberBase is an open source operating system that specializes in gaming and live steam / brodcast preformace. The operating system is optimized to your computers hard ware to increase preformance.
+</p>
+<br>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- ABOUT THE PROJECT -->
+<h2 id="credits"> ☁️ Credits</h2>
+
+<p align="justify"> 
+    <h3>Founder</h3>
+    <p>EmberBase was founded and created by <b>Ryan Rudd</b></p>
+    <h3>Contributers</h3>
+    <a href="https://github.com/EmberBase/EmberBase/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EmberBase/EmberBase" />
+    </a>
+
+
 </p>
