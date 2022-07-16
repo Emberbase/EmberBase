@@ -18,7 +18,7 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     use blog_os::memory::{self, BootInfoFrameAllocator};
     use x86_64::VirtAddr;
 
-    println!("Hello World{}", "!");
+    println!("EmberBase OS BootLoader{}", "!");
     blog_os::init();
 
     let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);

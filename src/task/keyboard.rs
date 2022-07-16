@@ -1,3 +1,4 @@
+use crate::{print, println};
 use conquer_once::spin::OnceCell;
 use core::{
     pin::Pin,
