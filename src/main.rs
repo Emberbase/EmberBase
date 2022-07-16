@@ -18,7 +18,7 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     use blog_os::memory::{self, BootInfoFrameAllocator};
     use x86_64::VirtAddr;
 
-    println!("EmberBase OS BootLoader{}", "!");
+    println!("{:indent$}EmberBase\n\n\n\n\n\n\n\n\n\n\n\nVersion 0.0.1\nEmberBase LLC. 2022", "", indent=38);
     blog_os::init();
 
     let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);
@@ -56,7 +56,7 @@ async fn async_number() -> u32 {
 
 async fn example_task() {
     let number = async_number().await;
-    println!("async number: {}", number);
+    //println!("\n\nasync number: {}", number);
 }
 
 #[test_case]
