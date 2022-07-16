@@ -2,7 +2,7 @@
 <h4 align="center">Open-source operating system that targets maximized performance for gaming and broadcasting</h>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-ca  <p align="center">
+  <p align="center">
     <a href="https://github.com/anuraghazra/github-readme-stats/actions">
     <a href="https://github.com//Emberbase/EmberBase/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/Emberbase/EmberBase?color=0088ff" />
