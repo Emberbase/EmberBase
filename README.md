@@ -40,6 +40,8 @@
 <p align="justify"> 
     <h3>Founder</h3>
     <p>EmberBase was founded and created by <b>Ryan Rudd</b></p>
+    <h3>Boilerplate</h3>
+    <p>The OS is built in a language called rust. The rust OS boilerplate that is used was made by <a href="https://github.com/phil-opp/blog_os">Phill Opp</a></p>
     <h3>Contributers</h3>
     <a href="https://github.com/EmberBase/EmberBase/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=EmberBase/EmberBase" />
